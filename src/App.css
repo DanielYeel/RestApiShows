@@ -1,0 +1,13 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+

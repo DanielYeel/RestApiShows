@@ -1,0 +1,54 @@
+.show-card {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 600px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.297);
+}
+
+.show-photo {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+}
+
+.show-details {
+  flex: 1;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.show-name {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.show-details .show-premiere-date {
+  font-size: 0.9em;
+  color: #777;
+  margin: 5px 0;
+}
+
+.show-summary {
+  margin-top: 10px;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+  text-align: left;
+}
+
+.show-genres {
+  font-size: 0.9em;
+  color: #474646;
+  margin: 0;
+}
+
+  
